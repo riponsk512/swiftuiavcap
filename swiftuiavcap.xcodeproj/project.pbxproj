@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D6A9CAE2A65ADB300478C3D /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6A9CAD2A65ADB300478C3D /* ProgressBar.swift */; };
 		5D6ADA002A62FBBF0071022E /* swiftuiavcapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6AD9FF2A62FBBF0071022E /* swiftuiavcapApp.swift */; };
 		5D6ADA022A62FBBF0071022E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6ADA012A62FBBF0071022E /* ContentView.swift */; };
 		5D6ADA042A62FBC10071022E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6ADA032A62FBC10071022E /* Assets.xcassets */; };
@@ -14,11 +15,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D6A9CAD2A65ADB300478C3D /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		5D6AD9FC2A62FBBF0071022E /* swiftuiavcap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiavcap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6AD9FF2A62FBBF0071022E /* swiftuiavcapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiavcapApp.swift; sourceTree = "<group>"; };
 		5D6ADA012A62FBBF0071022E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D6ADA032A62FBC10071022E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D6ADA062A62FBC10071022E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D6ADA0D2A63006C0071022E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +54,12 @@
 		5D6AD9FE2A62FBBF0071022E /* swiftuiavcap */ = {
 			isa = PBXGroup;
 			children = (
+				5D6ADA0D2A63006C0071022E /* Info.plist */,
 				5D6AD9FF2A62FBBF0071022E /* swiftuiavcapApp.swift */,
 				5D6ADA012A62FBBF0071022E /* ContentView.swift */,
 				5D6ADA032A62FBC10071022E /* Assets.xcassets */,
 				5D6ADA052A62FBC10071022E /* Preview Content */,
+				5D6A9CAD2A65ADB300478C3D /* ProgressBar.swift */,
 			);
 			path = swiftuiavcap;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D6ADA022A62FBBF0071022E /* ContentView.swift in Sources */,
+				5D6A9CAE2A65ADB300478C3D /* ProgressBar.swift in Sources */,
 				5D6ADA002A62FBBF0071022E /* swiftuiavcapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = NB5B4D8982;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swiftuiavcap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +306,7 @@
 				DEVELOPMENT_TEAM = NB5B4D8982;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swiftuiavcap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
